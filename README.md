@@ -1,6 +1,7 @@
 # curso-practico-js
 
-...
+Proyecto Calculadora de Figuras Geométricos
+https://henry-1227.github.io/curso-practico-js/figuras.html
 
 ## Taller #1: Figuras Geometricas
 
