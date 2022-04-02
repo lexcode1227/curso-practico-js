@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geométricas | Curso Práctico de JavaScript</title>
+    <link rel="stylesheet" href="/figuras.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="/pngwing.com.png" alt="" srcset="">
+        <h1>Figuras Geométricas</h1>
+    </header>
+    <section>
+        <h2>Este es el primer taller del curso Práctico de JavaScript</h2>
+        <div class="container">
+            <div class="cardFigure">
+                <h2>Calcula el perímetro y/o área de un cuadradado</h2>
+                <form action="" class="miformulario">
+                    <label for="inputCuadrado">Escribe cuanto mide cada lado de tu cuadrado:</label>
+                    <input type="number" name="" id="inputCuadrado"><br>
+                    <button type="button" onclick="calcularPerimetroCuadrado()" >Calcular perímetro</button><br>
+                    <button type="button" onclick="calcularAreaCuadrado()" >Calcular el área</button><br>
+                    <input type="reset" value="Limpiar campos"><br>
+                </form>
+                <p id="textCuadrado">Respuesta</p>
+            </div>
+            <div class="cardFigure">
+                <h2>Calcula el perímetro y/o área de un triángulo</h2>
+                <form action="" class="miformulario">
+                    <label for="inputTriangulo1">Escribe cuanto mide el primer lado de tu triángulo:</label>
+                    <input type="number" name="" id="inputTriangulo1"><br>
+                    <label for="inputTriangulo2">Escribe cuanto mide el segundo lado de tu triángulo:</label>
+                    <input type="number" name="" id="inputTriangulo2"><br>
+                    <label for="inputTriangulobase">Escribe cuanto mide la base de tu triángulo:</label>
+                    <input type="number" name="" id="inputTriangulobase"><br>
+                    <label for="inputTrianguloh">Escribe la altura del triángulo:</label>
+                    <input type="number" name="" id="inputTrianguloh"><br>
+                    <button type="button" onclick="calcularPerimetroTriangulo()" >Calcular perímetro</button><br>
+                    <button type="button" onclick="calcularAreaTriangulo()" >Calcular el área</button><br>
+                    <input type="reset" value="Limpiar campos"><br>
+                </form>
+                <p id="textTriangulo">Respuesta</p>
+            </div>
+            <div class="cardFigure">
+                <h2>Calcula el perímetro y/o área de un círculo</h2>
+                <form action="" class="miformulario">
+                    <label for="inputCirculo">Escribe cuanto mide el radio del circulo:</label>
+                    <input type="number" name="" id="inputCirculo"><br>
+                    <button type="button" onclick="calcularPerimetroCirculo()" >Calcular perímetro</button><br>
+                    <button type="button" onclick="calcularAreaCirculo()" >Calcular el área</button><br>
+                    <input type="reset" value="Limpiar campos"><br>
+                </form>
+                <p id="textCirculo">Respuesta</p>
+            </div>
+            <div class="cardFigure">
+                <h2>Calcula la altura de un Triángulo Isósceles</h2>
+                <form action="" class="miformulario">
+                    <input type="number" name="" id="inputTrianguloA" placeholder="Ingresa el lado A"><br>
+                    <input type="number" name="" id="inputTrianguloB" placeholder="Ingresa el lado B"><br>
+                    <input type="number" name="" id="inputTrianguloBase" placeholder="Ingresa el lado Base"><br>
+                    <button type="button" onclick="calcularAlturaTriangulo()">Calcular altura</button><br>
+                    <input type="reset" value="Limpiar campos"></input><br>
+                </form>
+                <p id="respuestaAltura">Respuesta</p>
+            </div>
+        </div>
+        
+    </section>
+    <script src="./figuras.js"></script>
+</body>
+</html>
