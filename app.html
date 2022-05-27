@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Assets/css/styles.css">
+    <title>App de Gastos e Ingresos | By Henry1227</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>¡Que ondas, Alexander!</h1>
+            <h2>¿Cómo te fue en tu dia campeón?😎</h2>
+        </header>
+        <section>
+            <div class="form">
+                <h2>Nuevo Ingreso</h2>
+                <div class="form-container">
+                <img src="" alt="">
+                <h3>FONDOS</h3>
+                <form action="" class="form-container-card" id="formularioIngresos">
+                    <label for="#">¿Cuánto ganaste?</label>
+                    <span class="currencyinput">$<input type="number" name="" id="cantidad-ingresada"></span>
+                    <label for="#">Concepto</label>
+                    <input type="text" class="currencyinput" id="concepto-ingresada">
+                    <button type="button" class="btn" onclick="sumarIngresos()">Añadir</button>
+                </form>
+                </div>
+            </div>
+            <div class="form">
+                <h2>Nuevo Gastos</h2>
+                <div class="form-container">
+                <img src="" alt="">
+                <h3>GASTOS</h3>
+                <form action="" class="form-container-card" id="formularioGastos">
+                    <label for="#">¿Cuánto gastaste?</label>
+                    <span class="currencyinput">$<input type="number" name="" id="cantidad-gastada"></span>
+                    <label for="#">Concepto</label>
+                    <input type="text" class="currencyinput" id="concepto-gastada">
+                    <button type="button" class="btn" onclick="sumarGastos()">Añadir</button>
+                </form>
+                </div>
+            </div>
+        </section>
+        <section class="table-balance" id="tableBalance">
+            <h2>Hoy, <span id="day-number">25</span> de <span id="year-month">Mayo</span></h2>
+            <!--Tabla de ingresos y gastos-->
+            <!--<div class="single-concept">
+                    <div class="concept-left">
+                        <p>Regalo</p>
+                        <p id="concept-left_text">FONDOS</p>
+                    </div>
+                    <p class="concept-right"><span>+</span><span>$</span>15</p>
+                </div>
+                <div class="single-concept">
+                    <div class="concept-left">
+                        <p>Cena</p>
+                        <p id="concept-left_text">GASTOS</p>
+                    </div>
+                    <p class="concept-right"><span>-</span><span>$</span>25</p>
+                </div>
+            --> 
+        </section>
+    </main>
+    <script src="/Assets/js/app.js"></script>
+</body>
+</html>
